@@ -2,6 +2,7 @@
 
 from .cordon_environment import CordonEnv
 from .reward_function import MSAElasticWithTolls, MSARewardFunction
+from .reward_function import MSARewardFunction
 from .deepaco import DeepACOAgent
 from .model import HeuristicGNN
 from .train import reinforce_train, grpo_train
